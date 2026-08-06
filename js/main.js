@@ -49,14 +49,26 @@
     });
   }
 
+  var toTop = document.getElementById("to-top");
+
   function onScroll() {
     var y = window.scrollY;
     header.classList.toggle("is-scrolled", y > 20);
+    if (toTop) {
+      toTop.classList.toggle("is-visible", y > 600);
+    }
   }
 
   if (header) {
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
+  }
+
+  if (toTop) {
+    toTop.addEventListener("click", function () {
+      var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+    });
   }
 
   var revealGroup = document.querySelectorAll("[data-reveal-group]");
