@@ -1095,6 +1095,16 @@ button {
     --header-h: 68px;
   }
 
+  .hero {
+    min-height: 0;
+    align-items: flex-start;
+    padding: calc(var(--header-h) + 44px) 0 80px;
+  }
+
+  .hero-content {
+    padding-top: 0;
+  }
+
   .nav-toggle {
     display: inline-flex;
   }
