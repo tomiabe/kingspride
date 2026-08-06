@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Portrait placeholder for Kayode Abe">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1B33"/>
+      <stop offset="1" stop-color="#12294D"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <g fill="none" stroke="#E8EDF4" stroke-width="1" opacity="0.08">
+    <rect x="80" y="80" width="740" height="1040" rx="0"/>
+    <rect x="96" y="96" width="708" height="1008" rx="0"/>
+  </g>
+  <text x="450" y="620" font-family="Georgia, 'Times New Roman', serif" font-size="220" letter-spacing="8" text-anchor="middle" fill="#FFFFFF" opacity="0.92">KA</text>
+  <line x1="330" y1="680" x2="570" y2="680" stroke="#8C1D3F" stroke-width="3"/>
+  <text x="450" y="730" font-family="Arial, Helvetica, sans-serif" font-size="26" letter-spacing="12" text-anchor="middle" fill="#9FB0C6">PORTRAIT</text>
+  <text x="450" y="772" font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing="2" text-anchor="middle" fill="#6E829C">Replace with photo of Kayode Abe</text>
+</svg>
