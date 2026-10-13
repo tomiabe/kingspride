@@ -1,6 +1,15 @@
 (function () {
   "use strict";
 
+  if (window.Lenis) {
+    new Lenis({
+      autoRaf: true,
+      anchors: true,
+      respectReducedMotion: true,
+      stopInertiaOnNavigate: true
+    });
+  }
+
   var toggle = document.getElementById("nav-toggle");
   var nav = document.getElementById("site-nav");
 
