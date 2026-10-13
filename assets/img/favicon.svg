@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Kingspride">
   <rect width="64" height="64" fill="#180c30"/>
-  <rect x="10" y="12" width="7" height="7" fill="#ff002b"/>
+  <circle cx="11" cy="32" r="3.5" fill="#ff002b"/>
   <text x="32" y="45" fill="#ffffff" font-family="Arial, sans-serif" font-size="31" font-weight="700" text-anchor="middle">K</text>
-  <rect x="47" y="45" width="7" height="7" fill="#ff002b"/>
+  <circle cx="53" cy="32" r="3.5" fill="#ff002b"/>
 </svg>
