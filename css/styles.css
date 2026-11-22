@@ -509,6 +509,72 @@ button { color: inherit; font: inherit; }
   .footer-bottom > :last-child { grid-column: 2; grid-row: 1; }
 }
 
+/* ---------- Quiet motion ---------- */
+:root { --ease-out: cubic-bezier(.22, .61, .36, 1); }
+
+.js :where(
+  .hero-copy-inner,
+  main > section > [class*="container"],
+  main > header > .container,
+  main > section[class*="container"]
+) {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity .7s var(--ease-out), transform .7s var(--ease-out);
+}
+
+.js :where(
+  .hero-copy-inner,
+  main > section > [class*="container"],
+  main > header > .container,
+  main > section[class*="container"]
+).is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* The hero photograph settles in gently rather than sliding the section. */
+@keyframes hero-image-in {
+  from { opacity: .55; transform: scale(1.05); }
+  to { opacity: 1; transform: scale(1); }
+}
+.hero-image > img { animation: hero-image-in 1.4s var(--ease-out) both; }
+
+/* Small, consistent hover responses. */
+.site-nav > a:not(.nav-contact) { position: relative; }
+.site-nav > a:not(.nav-contact)::after {
+  position: absolute; right: 0; bottom: -6px; left: 0; height: 1px;
+  content: ""; background: currentColor;
+  transform: scaleX(0); transform-origin: left;
+  transition: transform .25s var(--ease-out);
+}
+.site-nav > a:not(.nav-contact):hover::after,
+.site-nav > a:not(.nav-contact)[aria-current="page"]::after { transform: scaleX(1); }
+
+.button i,
+.hero-link i,
+.article-read-link i,
+.capability-card > a i { transition: transform .25s var(--ease-out); }
+.button:hover i,
+.capability-card:hover > a i,
+.article-card:hover .article-read-link i { transform: translateX(3px); }
+.hero-link:hover i { transform: translateY(2px); }
+
+.article-card h3, .article-card h4, .capability-card h3 { transition: color .2s ease; }
+.article-card:hover h3, .article-card:hover h4,
+.capability-card:hover h3 { color: var(--navy); }
+
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { transition-duration: .01ms !important; }
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .js :where(
+    .hero-copy-inner,
+    main > section > [class*="container"],
+    main > header > .container,
+    main > section[class*="container"]
+  ) { opacity: 1 !important; transform: none !important; }
 }
