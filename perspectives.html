@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -37,147 +37,461 @@
   <link href="https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&display=swap" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/wonder-tokens.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+<div class="flex w-[1440px] min-w-0 h-fit min-h-[900px] flex-col [background-color:var(--kingspride-paper)] [color:var(--kingspride-ink)] [font-family:var(--kingspride-font)] text-base font-normal not-italic leading-normal tracking-[0px] overflow-clip">
 
-  <header class="site-header" id="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="index.html" aria-label="Kingspride, home">
-        <img src="assets/img/kingspride-wordmark.svg" alt="Kingspride">
-      </a>
-      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
-        <i class="fa-solid fa-bars" aria-hidden="true"></i>
-      </button>
-      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-        <a href="practice.html">The practice</a>
-        <a href="capabilities.html">Capabilities</a>
-        <a href="index.html#approach">How we work</a>
-        <a href="leadership.html">Leadership</a>
-        <a href="perspectives.html" aria-current="page">Perspectives</a>
-        <a class="nav-contact" href="index.html#contact">Start a conversation <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
-      </nav>
-    </div>
-  </header>
+  
+<div class="flex w-full h-[88px] justify-between items-center [background-color:var(--kingspride-paper)] [border-top-color:var(--kingspride-line)] border-b [border-bottom-color:var(--kingspride-line)] [border-left-color:var(--kingspride-line)] [border-right-color:var(--kingspride-line)] px-20 py-0">
 
-  <main id="main">
-    <section class="practice-hero perspectives-hero" aria-labelledby="perspectives-title">
-      <div class="container practice-hero-grid">
-        <div class="practice-hero-copy">
-          <h1 id="perspectives-title">Ideas for institutions navigating change.</h1>
-          <p>Perspectives from Kingspride on strategy, organization, people and leadership, grounded in the questions leaders are working through now.</p>
-          <p>Alongside published work and teaching, this library will grow as the practice develops new thinking and research.</p>
-          <a class="button button-light" href="#articles">Browse perspectives <i class="fa-solid fa-arrow-down" aria-hidden="true"></i></a>
-        </div>
-        <figure class="practice-hero-image perspectives-hero-image">
-          <img src="assets/img/office-collaboration.jpg" alt="Three Black professionals sharing ideas around a table in a contemporary office" fetchpriority="high">
-          <figcaption>Ideas that connect leadership decisions to the work itself.</figcaption>
-        </figure>
-      </div>
-    </section>
+    
+<div class="block w-[183px] max-w-full bg-contain bg-no-repeat bg-center" style="background-image:url('https://cdn.wonder.so/images/019d8f54-8609-7ec9-a550-28364cfaadbd/600947aa44ed02e7577cb8c986c5f39d37fcf19b0ffd7678865bc9a158c099b6.svg');content:url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%2255%22%2F%3E')">
+</div>
 
-    <section class="perspectives-publication section-pad" aria-labelledby="published-work-title">
-      <div class="container">
-        <div class="perspectives-publication-heading">
-          <h2 id="published-work-title">Published work</h2>
-          <p>A contribution to professional learning, alongside ongoing teaching and faculty work.</p>
-        </div>
-        <div class="perspectives-publication-layout">
-          <article class="publication">
-            <div class="publication-icon"><i class="fa-solid fa-book" aria-hidden="true"></i></div>
-            <div>
-              <span class="content-label">Book contribution</span>
-              <h3>Understanding Management Principles</h3>
-              <p>A chapter in Essentials of Banking, published by FITC in 2013 and republished in 2022.</p>
-              <span class="publication-note">Kayode Abe · Professional learning</span>
-            </div>
-          </article>
-          <aside class="faculty-note" aria-labelledby="faculty-title">
-            <h3 id="faculty-title">Teaching and faculty</h3>
-            <p>Kayode Abe has taught and facilitated with Rome Business School Nigeria, FITC, Institute of Directors Nigeria, CIBN, ICAN, CBN Training School and NDIC Training Academy.</p>
-            <a href="leadership.html">Read about leadership and faculty work <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
-          </aside>
-        </div>
-      </div>
-    </section>
+    
+<div class="flex items-center gap-[38px]">
 
-    <section class="perspectives-library section-pad" id="articles" aria-labelledby="articles-title">
-      <div class="container">
-        <div class="perspectives-library-heading">
-          <div>
-            <h2 id="articles-title">Questions worth working through.</h2>
-            <p>Practical perspectives on the choices that shape how institutions adapt, organize and sustain performance.</p>
-          </div>
-        </div>
-        <div class="article-grid">
-          <a class="article-card" href="articles/ai-adoption.html">
-            <img src="assets/img/article-covers/ai-adoption.jpg" alt="Robot and human hands reaching toward AI lettering against a blue circuit pattern" loading="lazy">
-            <div class="article-card-content">
-              <span class="article-topic">Technology and work</span>
-              <h3>AI adoption starts with the work, not the tool</h3>
-              <p>Questions leaders can ask about roles, judgement and capability before introducing AI across the organization.</p>
-              <span class="article-read-link">Read article <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
-            </div>
-          </a>
-          <a class="article-card" href="articles/operating-model.html">
-            <img src="assets/img/article-covers/growth.jpg" alt="A hand places a wooden block atop a growing stack" loading="lazy">
-            <div class="article-card-content">
-              <span class="article-topic">Strategy and operations</span>
-              <h3>When growth outpaces the operating model</h3>
-              <p>How to recognize when structure and decision rights are slowing a sound strategy.</p>
-              <span class="article-read-link">Read article <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
-            </div>
-          </a>
-          <a class="article-card" href="articles/succession.html">
-            <img src="assets/img/article-covers/succession-planning.jpg" alt="A person sketches ideas at a table with a notebook and coffee" loading="lazy">
-            <div class="article-card-content">
-              <span class="article-topic">Leadership and continuity</span>
-              <h3>Succession planning is a test of institutional strength</h3>
-              <p>Why continuity depends on building leadership capacity well before a transition begins.</p>
-              <span class="article-read-link">Read article <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
-            </div>
-          </a>
-        </div>
-      </div>
-    </section>
+      
+<a class="w-fit [color:var(--kingspride-ink)] [font-family:var(--kingspride-font)] text-sm font-semibold not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal" href="capabilities.html">
+Expertise
+</a>
 
-    <section class="leadership-cta">
-      <div class="container practice-cta-inner">
-        <h2>Put a current question into conversation.</h2>
-        <a class="button button-light" href="index.html#contact">Start a conversation <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
-      </div>
-    </section>
-  </main>
+      
+<a class="w-fit [color:var(--kingspride-ink)] [font-family:var(--kingspride-font)] text-sm font-semibold not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal" href="practice.html">
+Approach
+</a>
 
-  <footer class="site-footer">
-    <div class="container footer-main">
-      <div class="footer-brand-block">
-        <a class="brand brand-footer" href="index.html" aria-label="Kingspride, home">
-          <img src="assets/img/kingspride-wordmark-light.svg" alt="Kingspride">
-        </a>
-        <p>Management consulting and organization development for institutions navigating change.</p>
-      </div>
-      <nav class="footer-nav" aria-label="Footer navigation">
-        <a href="practice.html">The practice</a>
-        <a href="capabilities.html">Capabilities</a>
-        <a href="index.html#approach">How we work</a>
-        <a href="leadership.html">Leadership</a>
-        <a href="perspectives.html" aria-current="page">Perspectives</a>
-      </nav>
-      <div class="footer-contact">
-        <span>Lagos, Nigeria</span>
-        <a href="mailto:info@kingspridegroup.com">Email the practice</a>
-        <a href="https://www.linkedin.com/in/kayodeabe" target="_blank" rel="noopener noreferrer">LinkedIn <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
-      </div>
-    </div>
-    <div class="container footer-bottom">
-      <span>© <span id="year">2026</span> Kingspride Group</span>
-      <a class="studio-credit" href="https://studio.tomiabe.com" target="_blank" rel="noopener noreferrer">Made by Tomi Abe Studio</a>
-      <a href="index.html">Back to home <i class="fa-solid fa-arrow-up" aria-hidden="true"></i></a>
-    </div>
-  </footer>
+      
+<a class="w-fit [color:var(--kingspride-ink)] [font-family:var(--kingspride-font)] text-sm font-semibold not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal" href="leadership.html">
+Leadership
+</a>
 
-  <script src="https://unpkg.com/lenis@1.3.26/dist/lenis.min.js"></script>
-  <script src="js/main.js"></script>
+      
+<a class="pt-0 pb-[5px] [border-top-color:var(--kingspride-plum)] [border-bottom-color:var(--kingspride-plum)] [border-left-color:var(--kingspride-plum)] [border-right-color:var(--kingspride-plum)] [color:var(--kingspride-plum)] [font-family:var(--kingspride-font)] text-sm font-semibold not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal px-0 border-b-2" href="perspectives.html">
+Perspectives
+</a>
+
+    
+</div>
+
+    
+<a class="flex h-11 justify-center items-center [background-color:var(--kingspride-plum)] px-5 py-0" href="mailto:info@kingspridegroup.com">
+
+      
+<span class="w-fit [color:var(--kingspride-paper)] [font-family:var(--kingspride-font)] text-sm font-semibold not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+Start a conversation
+</span>
+
+    
+</a>
+
+  
+</div>
+
+  
+<div class="flex w-full flex-col pt-[111px] pb-[91px] [background-color:var(--kingspride-paper)] px-20">
+
+    
+<span class="w-fit [color:var(--kingspride-navy)] [font-family:var(--kingspride-font)] text-[13px] font-bold not-italic leading-normal tracking-[2px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+PERSPECTIVES
+</span>
+
+    
+<span class="max-w-[1050px] mt-[29px] mb-0 [color:var(--kingspride-ink)] [font-family:var(--kingspride-font)] text-[69px] font-semibold not-italic leading-[1.08] tracking-[-2px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal mx-0">
+Ideas for institutions navigating change.
+</span>
+
+    
+<div class="flex w-full justify-between items-start pt-[27px] pb-0 mt-[66px] mb-0 border-t [border-top-color:var(--kingspride-line)] [border-bottom-color:var(--kingspride-line)] [border-left-color:var(--kingspride-line)] [border-right-color:var(--kingspride-line)] px-0 mx-0 gap-[100px]">
+
+      
+<span class="max-w-[615px] [color:var(--kingspride-ink)] [font-family:var(--kingspride-font)] text-xl font-medium not-italic leading-[1.55] tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+Perspectives from Kingspride on strategy, organization, people and leadership, grounded in the questions leaders are working through now.
+</span>
+
+      
+<div class="flex max-w-[365px] flex-col gap-[17px]">
+
+        
+<span class="[color:var(--kingspride-muted)] [font-family:var(--kingspride-font)] text-base font-normal not-italic leading-[1.6] tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+Alongside published work and teaching, this library will grow as the practice develops new thinking and research.
+</span>
+
+        
+<span class="w-fit [color:var(--kingspride-navy)] [font-family:var(--kingspride-font)] text-[15px] font-bold not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+Browse perspectives
+</span>
+
+      
+</div>
+
+    
+</div>
+
+  
+</div>
+
+  
+<div class="flex w-full flex-col [background-color:var(--kingspride-wash)] px-20 py-[105px]">
+
+    
+<div class="flex w-full justify-between items-end mt-0 mb-[45px] mx-0 gap-[75px]">
+
+      
+<span class="max-w-[640px] [color:var(--kingspride-ink)] [font-family:var(--kingspride-font)] text-[44px] font-semibold not-italic leading-[1.15] tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+Questions worth working through.
+</span>
+
+      
+<span class="max-w-[440px] pt-0 pb-[3px] [color:var(--kingspride-muted)] [font-family:var(--kingspride-font)] text-[17px] font-normal not-italic leading-[1.6] tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal px-0">
+Practical perspectives on the choices that shape how institutions adapt, organize and sustain performance.
+</span>
+
+    
+</div>
+
+    
+<div class="flex w-full flex-col border-t [border-top-color:var(--kingspride-line)] [border-bottom-color:var(--kingspride-line)] [border-left-color:var(--kingspride-line)] [border-right-color:var(--kingspride-line)]">
+
+      
+<div class="grid w-full items-start grid-cols-[60px_205px_minmax(0px,_1fr)_130px] [border-top-color:var(--kingspride-line)] border-b [border-bottom-color:var(--kingspride-line)] [border-left-color:var(--kingspride-line)] [border-right-color:var(--kingspride-line)] px-0 py-[38px] gap-[27px]">
+
+        
+<span class="w-fit pt-[5px] pb-0 [color:var(--kingspride-navy)] [font-family:var(--kingspride-font)] text-[13px] font-bold not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal px-0">
+01
+</span>
+
+        
+<span class="w-fit pt-[7px] pb-0 [color:var(--kingspride-navy)] [font-family:var(--kingspride-font)] text-xs font-bold not-italic leading-[1.4] tracking-[1px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal px-0">
+TECHNOLOGY &amp; WORK
+</span>
+
+        
+<div class="flex max-w-[650px] flex-col gap-3.5">
+
+          
+<span class="w-fit [color:var(--kingspride-ink)] [font-family:var(--kingspride-font)] text-[29px] font-semibold not-italic leading-[1.22] tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+AI adoption starts with the work, not the tool
+</span>
+
+          
+<span class="[color:var(--kingspride-muted)] [font-family:var(--kingspride-font)] text-base font-normal not-italic leading-[1.6] tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+Questions leaders can ask about roles, judgement and capability before introducing AI across the organization.
+</span>
+
+        
+</div>
+
+        
+<a class="w-fit pt-2 pb-0 [color:var(--kingspride-navy)] [font-family:var(--kingspride-font)] text-sm font-bold not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal px-0" href="articles/ai-adoption.html">
+Read article
+</a>
+
+      
+</div>
+
+      
+<div class="grid w-full items-start grid-cols-[60px_205px_minmax(0px,_1fr)_130px] [border-top-color:var(--kingspride-line)] border-b [border-bottom-color:var(--kingspride-line)] [border-left-color:var(--kingspride-line)] [border-right-color:var(--kingspride-line)] px-0 py-[38px] gap-[27px]">
+
+        
+<span class="w-fit pt-[5px] pb-0 [color:var(--kingspride-navy)] [font-family:var(--kingspride-font)] text-[13px] font-bold not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal px-0">
+02
+</span>
+
+        
+<span class="w-fit pt-[7px] pb-0 [color:var(--kingspride-navy)] [font-family:var(--kingspride-font)] text-xs font-bold not-italic leading-[1.4] tracking-[1px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal px-0">
+STRATEGY &amp; OPERATIONS
+</span>
+
+        
+<div class="flex max-w-[650px] flex-col gap-3.5">
+
+          
+<span class="w-fit [color:var(--kingspride-ink)] [font-family:var(--kingspride-font)] text-[29px] font-semibold not-italic leading-[1.22] tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+When growth outpaces the operating model
+</span>
+
+          
+<span class="w-fit [color:var(--kingspride-muted)] [font-family:var(--kingspride-font)] text-base font-normal not-italic leading-[1.6] tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+How to recognize when structure and decision rights are slowing a sound strategy.
+</span>
+
+        
+</div>
+
+        
+<a class="w-fit pt-2 pb-0 [color:var(--kingspride-navy)] [font-family:var(--kingspride-font)] text-sm font-bold not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal px-0" href="articles/operating-model.html">
+Read article
+</a>
+
+      
+</div>
+
+      
+<div class="grid w-full items-start grid-cols-[60px_205px_minmax(0px,_1fr)_130px] [border-top-color:var(--kingspride-line)] border-b [border-bottom-color:var(--kingspride-line)] [border-left-color:var(--kingspride-line)] [border-right-color:var(--kingspride-line)] px-0 py-[38px] gap-[27px]">
+
+        
+<span class="w-fit pt-[5px] pb-0 [color:var(--kingspride-navy)] [font-family:var(--kingspride-font)] text-[13px] font-bold not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal px-0">
+03
+</span>
+
+        
+<span class="w-fit pt-[7px] pb-0 [color:var(--kingspride-navy)] [font-family:var(--kingspride-font)] text-xs font-bold not-italic leading-[1.4] tracking-[1px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal px-0">
+LEADERSHIP &amp; CONTINUITY
+</span>
+
+        
+<div class="flex max-w-[650px] flex-col gap-3.5">
+
+          
+<span class="w-fit [color:var(--kingspride-ink)] [font-family:var(--kingspride-font)] text-[29px] font-semibold not-italic leading-[1.22] tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+Succession planning is a test of institutional strength
+</span>
+
+          
+<span class="w-fit [color:var(--kingspride-muted)] [font-family:var(--kingspride-font)] text-base font-normal not-italic leading-[1.6] tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+Why continuity depends on building leadership capacity well before a transition begins.
+</span>
+
+        
+</div>
+
+        
+<a class="w-fit pt-2 pb-0 [color:var(--kingspride-navy)] [font-family:var(--kingspride-font)] text-sm font-bold not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal px-0" href="articles/succession.html">
+Read article
+</a>
+
+      
+</div>
+
+    
+</div>
+
+  
+</div>
+
+  
+<div class="flex w-full flex-col [background-color:var(--kingspride-paper)] px-20 py-[103px]">
+
+    
+<div class="flex w-full justify-between items-end mt-0 mb-[42px] mx-0 gap-[75px]">
+
+      
+<span class="w-fit [color:var(--kingspride-ink)] [font-family:var(--kingspride-font)] text-[44px] font-semibold not-italic leading-[1.16] tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+Published work and teaching
+</span>
+
+      
+<span class="max-w-[440px] [color:var(--kingspride-muted)] [font-family:var(--kingspride-font)] text-[17px] font-normal not-italic leading-[1.6] tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+A contribution to professional learning, alongside ongoing faculty and facilitation work.
+</span>
+
+    
+</div>
+
+    
+<div class="grid w-full grid-cols-[minmax(0px,_1fr)_minmax(0px,_1fr)] border-t [border-top-color:var(--kingspride-line)] [border-bottom-color:var(--kingspride-line)] [border-left-color:var(--kingspride-line)] [border-right-color:var(--kingspride-line)] gap-[75px]">
+
+      
+<div class="flex flex-col pt-[34px] pb-0 px-0">
+
+        
+<span class="w-fit [color:var(--kingspride-navy)] [font-family:var(--kingspride-font)] text-[13px] font-bold not-italic leading-normal tracking-[1.5px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+BOOK CONTRIBUTION
+</span>
+
+        
+<span class="w-fit max-w-[550px] mt-[31px] mb-0 [color:var(--kingspride-ink)] [font-family:var(--kingspride-font)] text-[31px] font-semibold not-italic leading-[1.2] tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal mx-0">
+Understanding Management Principles
+</span>
+
+        
+<span class="max-w-[520px] mt-[17px] mb-0 [color:var(--kingspride-muted)] [font-family:var(--kingspride-font)] text-[17px] font-normal not-italic leading-[1.6] tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal mx-0">
+A chapter in Essentials of Banking, published by FITC in 2013 and republished in 2022.
+</span>
+
+        
+<span class="w-fit mt-6 mb-0 [color:var(--kingspride-navy)] [font-family:var(--kingspride-font)] text-sm font-medium not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal mx-0">
+Kayode Abe · Professional learning
+</span>
+
+      
+</div>
+
+      
+<div class="flex flex-col pt-[34px] pr-0 pb-0 pl-[65px] [border-top-color:var(--kingspride-line)] [border-bottom-color:var(--kingspride-line)] border-l [border-left-color:var(--kingspride-line)] [border-right-color:var(--kingspride-line)]">
+
+        
+<span class="w-fit [color:var(--kingspride-navy)] [font-family:var(--kingspride-font)] text-[13px] font-bold not-italic leading-normal tracking-[1.5px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+TEACHING &amp; FACULTY
+</span>
+
+        
+<span class="w-fit max-w-[490px] mt-[31px] mb-0 [color:var(--kingspride-ink)] [font-family:var(--kingspride-font)] text-[31px] font-semibold not-italic leading-[1.2] tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal mx-0">
+Learning shaped by practice.
+</span>
+
+        
+<span class="max-w-[510px] mt-[17px] mb-0 [color:var(--kingspride-muted)] [font-family:var(--kingspride-font)] text-[17px] font-normal not-italic leading-[1.6] tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal mx-0">
+Kayode Abe has taught and facilitated with Rome Business School Nigeria, FITC, Institute of Directors Nigeria, CIBN, ICAN, CBN Training School and NDIC Training Academy.
+</span>
+
+        
+<span class="w-fit mt-6 mb-0 [color:var(--kingspride-navy)] [font-family:var(--kingspride-font)] text-[15px] font-bold not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal mx-0">
+Read about leadership and faculty work
+</span>
+
+      
+</div>
+
+    
+</div>
+
+  
+</div>
+
+  
+<div class="flex w-full justify-between items-center [background-color:var(--kingspride-plum)] px-20 py-[95px] gap-[75px]">
+
+    
+<span class="max-w-[750px] [color:var(--kingspride-paper)] [font-family:var(--kingspride-font)] text-[46px] font-semibold not-italic leading-[1.14] tracking-[-1px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+Put a current question into conversation.
+</span>
+
+    
+<div class="flex max-w-[350px] flex-col items-start gap-5">
+
+      
+<span class="[color:var(--kingspride-paper)] [font-family:var(--kingspride-font)] text-[17px] font-normal not-italic leading-[1.58] tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+Speak with Kingspride about the work in front of your institution.
+</span>
+
+      
+<div class="flex h-[52px] justify-center items-center [background-color:var(--kingspride-paper)] px-6 py-0">
+
+        
+<span class="w-fit [color:var(--kingspride-plum)] [font-family:var(--kingspride-font)] text-sm font-bold not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+Start a conversation
+</span>
+
+      
+</div>
+
+    
+</div>
+
+  
+</div>
+
+  
+<div class="flex w-full flex-col pt-[65px] pb-[27px] [background-color:var(--kingspride-plum-soft)] px-20">
+
+    
+<div class="grid w-full grid-cols-[minmax(0px,_1.5fr)_minmax(0px,_1fr)_minmax(0px,_1fr)] pt-0 pb-[66px] px-0 gap-20">
+
+      
+<div class="flex flex-col items-start">
+
+        
+<div class="block w-[190px] max-w-full bg-contain bg-no-repeat bg-center" style="background-image:url('https://cdn.wonder.so/images/019d8f54-8609-7ec9-a550-28364cfaadbd/9f0bc6a071014a47374a3d3d72a3a4362e4a49f02a95445baefd38c84c948ff9.svg');content:url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%2255%22%2F%3E')">
+</div>
+
+        
+<span class="max-w-[355px] mt-[23px] mb-0 [color:var(--kingspride-paper)] [font-family:var(--kingspride-font)] text-base font-normal not-italic leading-[1.6] tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal mx-0">
+Management consulting and organization development for institutions navigating change.
+</span>
+
+      
+</div>
+
+      
+<div class="flex flex-col gap-3.5">
+
+        
+<span class="w-fit mt-0 mb-1.5 [color:var(--kingspride-paper)] [font-family:var(--kingspride-font)] text-xs font-bold not-italic leading-normal tracking-[1.5px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal mx-0">
+EXPLORE
+</span>
+
+        
+<span class="w-fit [color:var(--kingspride-paper)] [font-family:var(--kingspride-font)] text-sm font-normal not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+Expertise
+</span>
+
+        
+<span class="w-fit [color:var(--kingspride-paper)] [font-family:var(--kingspride-font)] text-sm font-normal not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+Approach
+</span>
+
+        
+<span class="w-fit [color:var(--kingspride-paper)] [font-family:var(--kingspride-font)] text-sm font-normal not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+The practice
+</span>
+
+        
+<span class="w-fit [color:var(--kingspride-paper)] [font-family:var(--kingspride-font)] text-sm font-normal not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+Leadership
+</span>
+
+        
+<span class="w-fit [color:var(--kingspride-paper)] [font-family:var(--kingspride-font)] text-sm font-normal not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+Perspectives
+</span>
+
+      
+</div>
+
+      
+<div class="flex flex-col gap-3.5">
+
+        
+<span class="w-fit mt-0 mb-1.5 [color:var(--kingspride-paper)] [font-family:var(--kingspride-font)] text-xs font-bold not-italic leading-normal tracking-[1.5px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal mx-0">
+CONTACT
+</span>
+
+        
+<span class="w-fit [color:var(--kingspride-paper)] [font-family:var(--kingspride-font)] text-sm font-normal not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+Lagos, Nigeria
+</span>
+
+        
+<span class="w-fit [color:var(--kingspride-paper)] [font-family:var(--kingspride-font)] text-sm font-normal not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+info@kingspridegroup.com
+</span>
+
+        
+<span class="w-fit [color:var(--kingspride-paper)] [font-family:var(--kingspride-font)] text-sm font-normal not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+LinkedIn
+</span>
+
+      
+</div>
+
+    
+</div>
+
+    
+<div class="flex w-full justify-between items-center pt-[25px] pb-0 border-t [border-top-color:var(--kingspride-plum)] [border-bottom-color:var(--kingspride-plum)] [border-left-color:var(--kingspride-plum)] [border-right-color:var(--kingspride-plum)] px-0">
+
+      
+<span class="w-fit [color:var(--kingspride-paper)] [font-family:var(--kingspride-font)] text-xs font-normal not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+© 2026 Kingspride Group
+</span>
+
+      
+<span class="w-fit [color:var(--kingspride-paper)] [font-family:var(--kingspride-font)] text-xs font-normal not-italic leading-normal tracking-[0px] text-left [direction:ltr] break-normal [overflow-wrap:normal] block whitespace-normal">
+Made by Tomi Abe Studio
+</span>
+
+    
+</div>
+
+  
+</div>
+
+
+</div>
 </body>
 </html>
