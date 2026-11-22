@@ -1,0 +1,21 @@
+@import url('https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&display=swap');
+:root {
+  --kingspride-plum-soft: #25163f;
+  --kingspride-wash: #f6f5f8;
+  --kingspride-line: #e4e1e8;
+  --space-24: 24px;
+  --kingspride-blue-wash: #eef4f8;
+  --kingspride-font: Switzer;
+  --kingspride-plum: #180c30;
+  --space-8: 8px;
+  --kingspride-navy: #002962;
+  --kingspride-muted: #65616d;
+  --kingspride-ink: #201d28;
+  --kingspride-paper: #ffffff;
+  --space-12: 12px;
+  --space-32: 32px;
+  --kingspride-red: #c00021;
+  --space-20: 20px;
+  --space-16: 16px;
+}
+body { margin: 0; }
