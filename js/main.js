@@ -5,6 +5,7 @@
     new Lenis({
       autoRaf: true,
       anchors: true,
+      lerp: 0.14,
       respectReducedMotion: true,
       stopInertiaOnNavigate: true
     });
