@@ -261,6 +261,59 @@ body { overflow-x: hidden; }
   .footer-main { grid-template-columns: 1fr 1fr; }
 }
 
+/* Article imagery belongs with the preview copy at every size. */
+.perspectives .article-grid { gap: 24px; border-top: 0; }
+.perspectives .article-card,
+.perspectives .article-card + .article-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  padding: 0;
+  background: var(--paper);
+  border: 1px solid var(--line);
+}
+.perspectives .article-card > img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+.perspectives .article-card-content { padding: 24px; }
+.perspectives .article-card h3 { font-size: 21px; }
+
+.perspectives-library .article-card,
+.perspectives-library .article-card + .article-card {
+  display: grid;
+  grid-template-columns: 190px minmax(0, 1fr);
+  align-items: center;
+  gap: 36px;
+  padding: 28px 0;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+}
+.perspectives-library .article-card > img {
+  display: block;
+  width: 190px;
+  height: 120px;
+  object-fit: cover;
+}
+.perspectives-library .article-card-content { padding: 0; }
+
+@media (max-width: 760px) {
+  .perspectives .article-grid { gap: 16px; }
+  .perspectives-library .article-card,
+  .perspectives-library .article-card + .article-card {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .perspectives-library .article-card > img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+}
+
 /* Leadership is supporting institutional evidence on the home page. */
 .leadership-panel { display: block; padding-top: 42px; border-top: 1px solid var(--line); }
 .leadership-copy { max-width: 100%; }
